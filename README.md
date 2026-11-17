@@ -1,4 +1,4 @@
-# HMTKD: Human-guided Multi-Teacher Knowledge Distillation
+# HMTKD: Hybrid Multi-Teacher Knowledge Distillation
 
 Code, prompts and data splits for explainable hate speech detection with HMTKD. A student model learns to write a structured rationale (evidence, targets, stance, severity, explanation, label) in three stages:
 
