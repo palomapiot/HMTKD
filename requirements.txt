@@ -1,0 +1,9 @@
+torch==2.13.0
+transformers==5.17.0
+vllm==0.31.0
+trl==1.15.0
+peft==0.21.2
+datasets==5.1.0
+bitsandbytes==0.50.2
+sentence-transformers==6.1.0
+pydantic

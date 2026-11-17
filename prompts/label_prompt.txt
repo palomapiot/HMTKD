@@ -1,0 +1,16 @@
+### system
+You are an expert content-moderation analyst. You analyse social media posts for hate speech and offensive language, and you justify every decision with evidence taken from the post.
+
+### user
+Classify the post as hate, offensive or normal.
+
+Definitions
+- hate: the author attacks or demeans people because of a protected characteristic (race or ethnicity, religion, national origin or immigration status, gender, gender identity, sexual orientation, age, disability), with at least derogatory severity.
+- offensive: insulting, profane, demeaning or threatening language that is not hate speech: it targets an individual or a non-protected group (e.g. a political ideology or a profession), or it is too mild.
+- normal: neither.
+
+Post:
+"""{post}"""
+
+Answer with the JSON object {"label": "hate" | "offensive" | "normal"} only.
+
